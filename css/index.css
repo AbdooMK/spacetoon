@@ -270,3 +270,21 @@ section:not(.hero) {
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-left: calc(var(--bs-gutter-x) * -.5);
 }
+.fly {
+  position: fixed;
+  top: 90%;
+  left: 96%;
+  width: 50px;
+  height: 50px;
+  z-index: 4;
+}
+.fly button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 35px;
+  color: white;
+  background-color: var(--bcolor);
+  
+  
+}
